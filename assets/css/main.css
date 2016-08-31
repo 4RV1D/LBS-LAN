@@ -1,0 +1,609 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: #101010;
+  color: #ecf0f1;
+}
+.font_light {
+  font-weight: 100;
+}
+.header_popup {
+  padding: 0px;
+  margin: 0;
+  padding: 10px;
+  transition: 1.5s;
+  height: 40px;
+}
+.header_popup p {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  margin: 0 auto;
+  background: #3e4149;
+  padding-top: 17%;
+  height: 100%;
+}
+.home .button {
+  margin: 10px;
+  color: #ecf0f1;
+  padding: 12px;
+  background: #3498DB;
+  opacity: 1;
+  font-size: 17px;
+  transition: padding 1s;
+  border-radius: 3px;
+}
+.home .button:hover {
+  background: #7ebde8;
+  transition: 1.5s;
+  opacity: 1;
+}
+.home .blue-text {
+  color: #3498db;
+}
+.home h1 {
+  transition: font-size 1s;
+  margin: 0;
+  font-size: 100px;
+}
+.home h4 {
+  transition: font-size 1s;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.home hr {
+  width: 400px;
+  margin: 0px;
+}
+.home label {
+  color: #ecf0f1 !important;
+  font-weight: 400 !important;
+}
+.register {
+  margin: 0 auto;
+  padding-top: 2%;
+  background: #3e4149;
+  height: 100%;
+}
+.register .form {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 25px;
+  width: 960px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.register .form h2 {
+  text-align: left;
+}
+.register .form .profil-upload {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px 10px 10px 10px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  display: flex;
+}
+.register .form .profil-upload input {
+  display: none;
+}
+.register .form .profil-upload label {
+  background: rgba(255, 255, 255, 0.8);
+  color: #222;
+  padding-left: 10px;
+  padding: 6.5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.register .form .profil-upload i {
+  padding: 8px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.register .form .user-field {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px 10px 10px 10px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  display: flex;
+}
+.register .form .user-field i {
+  padding: 7px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.register .form .user-field p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.register .form .user-field input {
+  background: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  color: #121212;
+  font-style: italic;
+  padding-left: 10px;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 25px;
+}
+.register .form .password-field {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px 10px 10px 10px;
+  display: flex;
+}
+.register .form .password-field i {
+  padding: 7px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.register .form .password-field p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.register .form .password-field input {
+  background: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  color: #121212;
+  font-style: italic;
+  padding-left: 10px;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 25px;
+}
+.register .form .name-field {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px 10px 10px 10px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  display: flex;
+}
+.register .form .name-field i {
+  padding: 7px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.register .form .name-field p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.register .form .name-field input {
+  background: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  color: #121212;
+  font-style: italic;
+  padding-left: 10px;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 25px;
+}
+.register .form .contact-field {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px 10px 10px 10px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  display: flex;
+}
+.register .form .contact-field i {
+  padding: 7px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.register .form .contact-field p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.register .form .contact-field input {
+  background: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  color: #121212;
+  font-style: italic;
+  padding-left: 10px;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 25px;
+}
+.register .button {
+  width: 120px;
+  border: 0px solid;
+  margin-top: 20px;
+  color: #ecf0f1;
+  padding: 12px;
+  background: #3498db;
+  font-size: 17px;
+  transition: padding 1s;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.register .button:hover {
+  background: #7ebde8;
+  border: 0px solid;
+  transition: 1.5s;
+}
+body {
+  background: #3e4149;
+}
+nav {
+  height: 100px;
+  padding: 10px 10% 10px 10%;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #3498db;
+}
+nav a {
+  color: #ecf0f1;
+  font-size: 15px;
+  text-align: center;
+}
+nav a:hover {
+  color: #ecf0f1;
+}
+nav p {
+  text-align: left;
+  float: left;
+  margin-top: 23px;
+}
+nav .nav_link {
+  float: right;
+  padding: 25px;
+  margin-top: -10px;
+}
+nav .nav_link:hover {
+  background: #3498db;
+}
+nav .opacity {
+  opacity: 0.5;
+}
+nav h1 {
+  position: relative;
+  top: -5px;
+  float: left;
+}
+nav .blue-text {
+  color: #3498db;
+  font-weight: 400;
+}
+nav h1 {
+  transition: font-size 1s;
+  margin: 0;
+  font-size: 70px;
+}
+nav h4 {
+  transition: font-size 1s;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+nav hr {
+  width: 310px;
+  margin: 0px;
+}
+nav label {
+  color: #ecf0f1 !important;
+  font-weight: 400 !important;
+}
+nav span {
+  margin: 0 20px 0 20px;
+}
+.main {
+  padding: 45px 10% 45px 10%;
+}
+.information {
+  margin: 0 auto;
+  background: #3e4149;
+  height: 100%;
+}
+.information .news-content {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 25px;
+  width: 960px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.information .news-content hr {
+  border: 1px solid white;
+  border-radius: 10px;
+  opacity: 0.1;
+}
+.profile {
+  margin: 0 auto;
+  padding-top: 2%;
+  background: #3e4149;
+  height: 100%;
+}
+.profile .content {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 25px;
+  width: 960px;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.profile .content .profile_info {
+  margin-left: 25px;
+}
+.profile .content img {
+  border-radius: 7px;
+  width: 300px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.tournament {
+  margin: 0 auto;
+  padding-top: 2%;
+  background: #3e4149;
+  height: 100%;
+}
+.tournament .content {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 25px;
+  width: 960px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.tournament .content .tournament_div {
+  margin-bottom: 25px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 100%;
+  height: 225px;
+  transition: 1s;
+  display: flex;
+  flex-direction: row;
+}
+.tournament .content .tournament_div img {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  width: 400px;
+  opacity: 0.3;
+}
+.tournament .content .tournament_div .button {
+  position: relative;
+  top: 15px;
+  color: #ecf0f1;
+  padding: 12px;
+  background: #3498DB;
+  opacity: 1;
+  font-size: 17px;
+  transition: padding 1s;
+  border-radius: 3px;
+}
+.tournament .content .tournament_div .button:hover {
+  background: #7ebde8;
+  transition: 1.5s;
+  opacity: 1;
+}
+.tournament .content .tournament_div .tour_info {
+  margin-left: 15px;
+  padding: 20px;
+}
+.tournament .content .tournament_div:hover img {
+  opacity: 0.8;
+  transition: 1.5s;
+}
+.admin-panel {
+  margin: 0 auto;
+  padding-top: 2%;
+  background: #3e4149;
+  height: 100%;
+}
+.admin-panel .content {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 25px;
+  width: 960px;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.admin-panel .content a {
+  color: #ecf0f1;
+}
+.admin-panel .content i {
+  padding: 7px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.admin-panel .content input {
+  background: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  color: #121212;
+  font-style: italic;
+  padding-left: 10px;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-right: 25px;
+}
+.admin-panel .content textarea {
+  background: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  color: #121212;
+  font-style: italic;
+  padding-left: 10px;
+  height: 100px;
+  border-radius: 3px;
+  margin-right: 25px;
+}
+.admin-panel .content button {
+  width: 120px;
+  border: 0px solid;
+  margin-top: 20px;
+  color: #ecf0f1;
+  padding: 12px;
+  background: #3498db;
+  font-size: 17px;
+  transition: padding 1s;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.admin-panel .content button:hover {
+  background: #7ebde8;
+  border: 0px solid;
+  transition: 1.5s;
+}
+.admin-panel .content ul {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 0px;
+}
+.admin-panel .content li {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.admin-panel .content li p {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 0px;
+  max-height: 40px;
+}
+.admin-panel .content li hr {
+  height: 38px;
+  margin: 0px;
+}
+.placing {
+  margin: 0 auto;
+  padding-top: 2%;
+  background: #3e4149;
+  height: 100%;
+}
+.placing .content {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 25px;
+  width: 960px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.placing .content .room {
+  position: relative;
+  top: -50px;
+  right: 200px;
+  text-align: left;
+  float: right;
+}
+.placing .content .button-input {
+  border: 0px;
+  position: relative;
+  top: 15px;
+  color: #ecf0f1;
+  padding: 12px;
+  background: #3498DB;
+  opacity: 1;
+  font-size: 17px;
+  transition: padding 1s;
+  border-radius: 3px;
+}
+.placing .content .button:hover {
+  background: #7ebde8;
+  transition: 1.5s;
+  opacity: 1;
+}
+.placing .content .taken {
+  color: red;
+}
+.placing .content a {
+  color: #ecf0f1;
+}
+.placing .content .buttons {
+  margin: 20px;
+}
+.placing .content .buttons i {
+  padding: 12px;
+  background-color: #3498DB;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 120%;
+}
+.placing .content .buttons .button {
+  width: 120px;
+  border: 0px solid;
+  margin-right: 20px;
+  color: #ecf0f1;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 17px;
+  transition: padding 1s;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.placing .content .buttons button:hover {
+  background: #7ebde8;
+  border: 0px solid;
+  transition: 1.5s;
+}
+.placing .content .margin-top {
+  margin-top: 30px;
+}
+.placing .content .margin-bottom {
+  margin-bottom: 30px;
+}
+.placing .content ul {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.placing .content ul li {
+  width: 45px;
+  background: rgba(0, 0, 0, 0.1);
+  list-style: none;
+  text-align: center;
+}
+.placing .content ul li p {
+  padding: 6px;
+}
+.placing .content ul li .taken {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 6px;
+}
+.placing .content ul li .taken_order {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 6px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: red;
+}
+.info {
+  margin: 0 auto;
+  padding-top: 2%;
+  background: #3e4149;
+  height: 100%;
+}
+.info .content {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 25px;
+  width: 960px;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
